@@ -1,13 +1,9 @@
-// This is a "stub" file.  It's a little start on your solution.
-// It's not a complete solution though; you have to write some code.
-
-// Package twofer should have a package comment that summarizes what it's about.
-// https://golang.org/doc/effective_go.html#commentary
+// Package twofer holds my solution to the two_fer Exercism problem .
 package twofer
 
 import "fmt"
 
-// ShareWith should have a comment documenting it.
+// ShareWith returns a string of the form "One for X, one for me.", where X is an input or 'you'.
 func ShareWith(name string) string {
 	if name == "" {
 		name = "you"
